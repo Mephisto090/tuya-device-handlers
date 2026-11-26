@@ -105,4 +105,5 @@ def test_quirk_maps_status_updates(
     assert "APPEASING" in device.status_range["status"].values
     assert "APPEASE_STOP" in device.status_range["status"].values
     assert "RESET_STOP" in device.status_range["status"].values
+    assert "POWER_ON_RESET" in device.status_range["status"].values
     assert device.local_strategy[24]["status_code"] == "status"
