@@ -104,4 +104,5 @@ def test_quirk_maps_status_updates(
     assert "CAT_ENTER" in device.status_range["status"].values
     assert "APPEASING" in device.status_range["status"].values
     assert "APPEASE_STOP" in device.status_range["status"].values
+    assert "RESET_STOP" in device.status_range["status"].values
     assert device.local_strategy[24]["status_code"] == "status"

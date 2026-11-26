@@ -38,6 +38,7 @@ from tuya_device_handlers.const import DPMode
             "CLEAN_STOP",
             "APPEASING",
             "APPEASE_STOP",
+            "RESET_STOP",
         ],
     )
     .add_dpid_integer(
